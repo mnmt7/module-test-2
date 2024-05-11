@@ -25,7 +25,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
   list-style-type: none;
 }
 
