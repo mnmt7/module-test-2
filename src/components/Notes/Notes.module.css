@@ -40,15 +40,3 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-
-/* .notes {
-  background-color: var(--BG-COLOR);
-  padding: 16px;
-  list-style-type: none;
-  display: flex;
-  gap: 16px;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: end;
-  overflow-y: scroll;
-} */
