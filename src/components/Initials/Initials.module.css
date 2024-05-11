@@ -1,0 +1,10 @@
+.initials {
+  flex-basis: 40px;
+  flex-shrink: 0;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  font-weight: 500;
+  font-size: 1rem;
+}

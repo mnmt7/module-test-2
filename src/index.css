@@ -1,0 +1,27 @@
+:root {
+  --PRIMARY-COLOR: #001f8b;
+  --BG-COLOR: #dce7f7;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    display: grid;
+    grid-template-columns: 290px 1fr;
+  }
+}

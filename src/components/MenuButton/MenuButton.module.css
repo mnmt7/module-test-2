@@ -1,0 +1,25 @@
+.menuButton {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+  padding: 12px 28px;
+}
+
+.name {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active {
+  border-radius: 8px;
+  background-color: #dcdcdc;
+}

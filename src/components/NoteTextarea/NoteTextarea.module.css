@@ -1,0 +1,43 @@
+.container {
+  background-color: var(--PRIMARY-COLOR);
+  padding: 12px;
+  position: relative;
+}
+
+.textarea {
+  border-radius: 4px;
+  border: none;
+  padding: 4px 16px;
+  height: 90px;
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 16px 12px;
+  resize: none;
+}
+
+@media screen and (min-width: 768px) {
+  .textarea {
+    height: 135px;
+    font-size: 1.1rem;
+  }
+}
+
+.sendBtn {
+  position: absolute;
+  bottom: 36px;
+  right: 24px;
+  z-index: 1;
+}
+
+.sendIcon {
+  height: 28px;
+  width: 28px;
+}
+
+.send {
+  fill: var(--PRIMARY-COLOR);
+}
+
+.disabled {
+  fill: #5c5c5c;
+}
