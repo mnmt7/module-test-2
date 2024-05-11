@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 768px) {
   .textarea {
-    height: 135px;
+    height: 125px;
     font-size: 1.1rem;
   }
 }
@@ -27,6 +27,12 @@
   bottom: 36px;
   right: 24px;
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .sendBtn {
+    bottom: 24px;
+  }
 }
 
 .sendIcon {
